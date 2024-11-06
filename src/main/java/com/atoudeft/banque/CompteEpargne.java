@@ -13,7 +13,7 @@ public class CompteEpargne extends CompteBancaire{
      * Crée un compte bancaire.
      *
      * @param numero numéro du compte
-     * @param interets taux d'interets du compte epargne
+     * @param interets taux d'interets en pourcentage du compte epargne
      */
     public CompteEpargne(String numero, double interets) {
         super(numero, TypeCompte.EPARGNE);
